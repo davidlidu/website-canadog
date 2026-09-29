@@ -1,0 +1,10 @@
+{
+  "name": "Fundación Canadog",
+  "short_name": "Canadog",
+  "lang": "es-CO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ea",
+  "theme_color": "#00a05a",
+  "icons": [{ "src": "assets/img/favicon.png", "sizes": "180x180", "type": "image/png" }]
+}
