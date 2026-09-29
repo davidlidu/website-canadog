@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.fundacioncanadog.org/</loc>
+    <loc>https://canadog.org/</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://www.fundacioncanadog.org/assets/img/animalitos/canadog-19.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.fundacioncanadog.org/assets/img/animalitos/canadog-07.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.fundacioncanadog.org/assets/img/animalitos/canadog-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-19.webp</image:loc></image:image>
+    <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-09.webp</image:loc></image:image>
   </url>
 </urlset>
