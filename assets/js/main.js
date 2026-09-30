@@ -67,7 +67,7 @@
         function step(ts) {
           if (!start) start = ts;
           var p = Math.min((ts - start) / 1400, 1);
-          el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+          el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))).toLocaleString('es-CO');
           if (p < 1) requestAnimationFrame(step);
         }
         requestAnimationFrame(step);
