@@ -3,6 +3,20 @@
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  // Al abrir el sitio como archivo local (file://) el navegador no resuelve
+  // "carpeta/" -> "carpeta/index.html"; en el servidor se mantienen las URLs limpias.
+  if (location.protocol === 'file:') {
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (/^(https?:|mailto:|tel:|#)/.test(href)) return;
+      var parts = href.split('#');
+      if (parts[0] === '..' || parts[0] === '.' || /\/$/.test(parts[0])) {
+        parts[0] = parts[0].replace(/\/?$/, '/') + 'index.html';
+        a.setAttribute('href', parts.join('#'));
+      }
+    });
+  }
+
   // Header con sombra al hacer scroll
   var header = document.querySelector('.site-header');
   function onScroll() { header.classList.toggle('is-scrolled', window.scrollY > 10); }
