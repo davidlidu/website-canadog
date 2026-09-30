@@ -8,6 +8,7 @@ COPY docker/nginx.conf /etc/nginx/conf.d/canadog.conf
 # Archivos del sitio
 COPY index.html robots.txt sitemap.xml site.webmanifest /usr/share/nginx/html/
 COPY assets /usr/share/nginx/html/assets
+COPY transparencia /usr/share/nginx/html/transparencia
 
 EXPOSE 80
 

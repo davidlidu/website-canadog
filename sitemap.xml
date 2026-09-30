@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://canadog.org/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-19.webp</image:loc></image:image>
     <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-07.webp</image:loc></image:image>
     <image:image><image:loc>https://canadog.org/assets/img/animalitos/canadog-09.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://canadog.org/transparencia/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

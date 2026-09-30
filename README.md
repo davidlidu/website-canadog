@@ -9,7 +9,7 @@ Landing page de la **Fundación Canadog** (Santuario Canadog), entidad sin ánim
 - Sitio estático (HTML, CSS y JavaScript sin dependencias ni proceso de build).
 - Diseño responsive inspirado en la plantilla Kutto.
 - Galería de fotos con visor (teclado, flechas y gesto de deslizar en móvil).
-- Sección de **Transparencia** con la información exigida para el Régimen Tributario Especial (RTE): directivos y documentos.
+- Página dedicada de **Transparencia** (`/transparencia/`) con la información exigida para el Régimen Tributario Especial (RTE): directivos y documentos. El home tiene un banner que lleva a ella.
 - SEO: metaetiquetas, Open Graph/Twitter, datos estructurados JSON-LD (`NGO`), `robots.txt`, `sitemap.xml` e imágenes WebP optimizadas.
 
 ## Estructura
@@ -17,6 +17,8 @@ Landing page de la **Fundación Canadog** (Santuario Canadog), entidad sin ánim
 ```
 .
 ├── index.html              # Página principal
+├── transparencia/
+│   └── index.html          # Página de transparencia (RTE)
 ├── robots.txt
 ├── sitemap.xml
 ├── site.webmanifest
@@ -70,7 +72,7 @@ Luego abre <http://localhost:8080>.
 ### Agregar o actualizar documentos de transparencia
 
 1. Copia el PDF a `assets/docs/` con un nombre en minúsculas y sin espacios (ej. `estados-financieros-2026.pdf`).
-2. En `index.html`, sección `#transparencia`, reemplaza el `<li class="doc doc--pending">` correspondiente por uno sin `doc--pending` con el botón **Ver PDF** (usa como modelo el de *Estatutos*).
+2. En `transparencia/index.html`, reemplaza el `<li class="doc doc--pending">` correspondiente por uno sin `doc--pending` con el botón **Ver PDF** (usa como modelo el de *Estatutos*).
 
 Documentos pendientes por publicar:
 
